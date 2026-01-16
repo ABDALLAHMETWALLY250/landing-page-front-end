@@ -47,7 +47,7 @@
 
 @media (min-width: 1024px) {
     .images {
-        max-width: none;
+        max-width: 100%;
     }
 }
 
@@ -64,6 +64,9 @@
 [dir="rtl"] .first-image {
     margin-left: 0;
     /* margin-right: auto; */
+
+    transform: rotateY(174deg);
+    width: 100%;
 }
 
 @media (min-width: 1024px) {
