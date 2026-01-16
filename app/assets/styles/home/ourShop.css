@@ -82,13 +82,14 @@
 
 .coffee-packs {
     position: absolute;
-    top: 50%;
     [dir="rtl"] & {
-        left: 58%;
+        left: 67%;
+        top: 47%;
     }
 
     [dir="ltr"] & {
         left: 50%;
+        top: 50%;
     }
 
     transform: translate(-50%, -50%);
