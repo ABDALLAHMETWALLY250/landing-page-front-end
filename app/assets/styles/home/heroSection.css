@@ -96,7 +96,7 @@
                                 }
 
                                 @media screen and (max-width: 500px) {
-                                    width: 100% !important;
+                                    /* width: 100% !important; */
                                     height: 420px !important;
                                 }
 
@@ -131,14 +131,13 @@
                         }
 
                         &:lang(ar) {
-                            bottom: 0;
-                            right: 92%;
+                            top: 5%;
+                            left: 92%;
                             transform: translateX(-50%);
 
                             @media screen and (max-width: 768px) {
-                                top: 88%;
-
-                                left: 63%;
+                                top: 93%;
+                                left: 80%;
                             }
                         }
 
@@ -166,9 +165,6 @@
                 color: var(--PrimaryColor);
                 font-size: 96px;
 
-                @media screen and (max-width: 500px) {
-                    font-size: 84px;
-                }
                 font-weight: bold;
                 line-height: 102%;
                 direction: ltr;
