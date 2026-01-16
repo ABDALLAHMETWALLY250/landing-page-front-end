@@ -13,7 +13,11 @@ const dataBrands = BrandsData;
           v-for="brand in dataBrands"
           :key="brand.id"
         >
-          <NuxtImg :src="brand.image" class="w-[28px] h-[28px]" alt="brand image" />
+          <NuxtImg
+            :src="brand.image"
+            class="w-[28px] h-[28px]"
+            alt="brand image"
+          />
           <p class="text-[24px] text-[#6F4336]">{{ brand.title }}</p>
         </div>
       </div>

@@ -97,7 +97,7 @@
 
                                 @media screen and (max-width: 500px) {
                                     width: 100% !important;
-                                    height: 390px !important;
+                                    height: 420px !important;
                                 }
 
                                 @media screen and (max-width: 400px) {
@@ -120,14 +120,13 @@
                         position: absolute;
                         &:lang(en) {
                             top: 5%;
-                            right: calc(30% - 100px);
+                            right: calc(15% - 100px);
                             transform: translateX(-50%);
                             justify-content: center;
                             width: fit-content;
                             @media screen and (max-width: 768px) {
-                                top: 88%;
-
-                                left: 63%;
+                                top: 93%;
+                                left: 78%;
                             }
                         }
 
