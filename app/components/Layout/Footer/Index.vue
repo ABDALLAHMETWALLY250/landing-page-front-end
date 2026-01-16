@@ -6,7 +6,7 @@
       src="/images/Group 1000010753.png"
       alt="footer image"
       loading="lazy"
-      class="absolute sm-none footer-image xl:-top-[20rem] lg:-top-[15rem] md:-top-[15rem]"
+      class="absolute sm-none footer-image xl:-top-[15rem] lg:-top-[15rem] md:-top-[15rem]"
     />
 
     <!-- Content -->
