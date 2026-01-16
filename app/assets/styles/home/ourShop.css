@@ -52,7 +52,7 @@
 }
 
 .first-image {
-    width: 100%;
+    width: 80%;
     position: relative;
 }
 
@@ -83,7 +83,7 @@
 .coffee-packs {
     position: absolute;
     [dir="rtl"] & {
-        left: 67%;
+        left: 76%;
         top: 47%;
     }
 
