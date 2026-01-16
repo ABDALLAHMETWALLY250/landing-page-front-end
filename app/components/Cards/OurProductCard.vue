@@ -18,7 +18,7 @@ const { locale } = useI18n();
     <NuxtLink
       :to="`${locale}/product/${product.id}`"
       class="block w-full group rounded-[30%] relative"
-      aria-label="View product Red Nail Polish"
+      :aria-label="product.title"
     >
       <div
         class="flex justify-start absolute top-5 left-7"
@@ -40,7 +40,7 @@ const { locale } = useI18n();
           >
             <NuxtImg
               :src="product.image"
-              alt="Red Nail Polish"
+              :alt="product.title"
               class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
               loading="lazy"
             />

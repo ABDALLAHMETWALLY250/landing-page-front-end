@@ -15,11 +15,13 @@ const cardsData = cards;
             src="/images/ourShopbg.webp"
             class="first-image"
             alt="Shop background"
+            loading="lazy"
           />
           <NuxtImg
             src="/images/coffePacks.png"
             class="coffee-packs"
             alt="Coffee packs"
+            loading="lazy"
           />
         </div>
       </div>

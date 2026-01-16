@@ -4,7 +4,8 @@
   >
     <NuxtImg
       src="/images/Group 1000010753.png"
-      alt=""
+      alt="footer image"
+      loading="lazy"
       class="absolute right-0 xl:-top-[20rem] lg:-top-[10rem] md:-top-[10rem] "
     />
 
