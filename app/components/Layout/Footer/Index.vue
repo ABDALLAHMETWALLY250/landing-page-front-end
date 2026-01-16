@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative !mt-20 w-full bg-gradient-to-r from-[#004876] to-[#1E71A6] !py-8 !px-5 min-h-[62vh]"
+    class="relative !mt-20 w-full bg-gradient-to-r from-[#004876] to-[#1E71A6] !py-8 !px-5 min-h-[62vh] sm-none"
   >
     <NuxtImg
       src="/images/Group 1000010753.png"
