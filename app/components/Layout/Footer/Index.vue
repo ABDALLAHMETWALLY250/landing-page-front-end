@@ -5,7 +5,7 @@
     <NuxtImg
       src="/images/Group 1000010753.png"
       alt=""
-      class="absolute right-0 !-top-[20rem]"
+      class="absolute right-0 xl:-top-[20rem] lg:-top-[10rem] md:-top-[10rem] "
     />
 
     <!-- Content -->
@@ -21,7 +21,9 @@
       <div class="w-full !mt-20 bg-[#FFFFFF95] h-[1px]"></div>
 
       <div class="flex items-center justify-between !mt-20">
-        <p class="font-medium text-[12px] text-[#FFFFFF95]">{{ $t("Privacy policy") }}</p>
+        <p class="font-medium text-[12px] text-[#FFFFFF95]">
+          {{ $t("Privacy policy") }}
+        </p>
         <LayoutFooterSocialLinks />
       </div>
     </div>

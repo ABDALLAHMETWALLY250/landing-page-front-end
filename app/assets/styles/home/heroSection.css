@@ -106,13 +106,13 @@
                     .swiper-basic-buttons {
                         position: absolute;
                         &:lang(en) {
-                            bottom: 75%;
+                            bottom: 0;
                             left: 70%;
                             transform: translateX(-50%);
                         }
 
                         &:lang(ar) {
-                            bottom: 75%;
+                            bottom: 0;
                             right: 70%;
                             transform: translateX(-50%);
                         }
