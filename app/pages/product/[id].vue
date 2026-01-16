@@ -48,9 +48,7 @@ const addToCart = () => {
       <ProductsDetailsReviews
         :reviews="product.reviews"
         :rating="product.rating"
-        data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine"
+        data-aos="zoom-in"
       />
     </div>
   </div>
