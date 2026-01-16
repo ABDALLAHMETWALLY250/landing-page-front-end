@@ -36,7 +36,7 @@ const closeSidebar = () => {
               ✕
             </button>
 
-            <h1 class="logo">Neop</h1>
+            <p class="text-xl font-bold">Menu</p>
 
             <ul class="menu">
               <li
@@ -56,7 +56,9 @@ const closeSidebar = () => {
 
       <div class="content">
         <div class="top-bar">
-          <NuxtImg src="/images/logo.png" alt="logo" class="logo" />
+          <NuxtLink :to="`/${locale}`" class="logo" aria-label="Home">
+            <NuxtImg src="/images/logo.png" alt="logo" class="logo" />
+          </NuxtLink>
 
           <div class="actions">
             <LayoutChangeLanguage />

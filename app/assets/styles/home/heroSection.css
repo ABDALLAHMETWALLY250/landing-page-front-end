@@ -57,8 +57,8 @@
                             display: flex;
                             justify-content: center;
                             align-items: center;
-                            height: 551px;
-                            width: 551px;
+                            width: 451px;
+                            height: 650px;
 
                             @media screen and (max-width: 1000px) {
                                 width: 500px;
@@ -119,17 +119,28 @@
                     .swiper-basic-buttons {
                         position: absolute;
                         &:lang(en) {
-                            bottom: 0;
-                            left: 82%;
+                            top: 5%;
+                            right: calc(30% - 100px);
                             transform: translateX(-50%);
                             justify-content: center;
                             width: fit-content;
+                            @media screen and (max-width: 768px) {
+                                top: 88%;
+
+                                left: 63%;
+                            }
                         }
 
                         &:lang(ar) {
                             bottom: 0;
                             right: 92%;
                             transform: translateX(-50%);
+
+                            @media screen and (max-width: 768px) {
+                                top: 88%;
+
+                                left: 63%;
+                            }
                         }
 
                         display: flex;
@@ -137,20 +148,6 @@
                         justify-content: end;
                         gap: 10px;
                         z-index: 20;
-                        @media screen and (max-width: 1149px) {
-                            bottom: 3rem;
-                            right: -8rem;
-                        }
-
-                        @media screen and (max-width: 768px) {
-                            bottom: 3rem;
-                            left: 45%;
-                        }
-
-                        @media screen and (max-width: 500px) {
-                            bottom: 0;
-                            left: 50%;
-                        }
                     }
                 }
             }
