@@ -1,0 +1,20 @@
+{
+    "sale": "SHOP 20% OFF",
+    "images": [
+        {
+            "id": 1,
+            "image": "/images/Coffee Beans.png",
+            "alt": "Coffee Product 1"
+        },
+        {
+            "id": 2,
+            "image": "/images/bc1a7d0b38e15540379068957cb03dd05dfe1ff4.png",
+            "alt": "Coffee Beans"
+        },
+        {
+            "id": 3,
+            "image": "/images/Coffee Beans.png",
+            "alt": "Coffee Product 2"
+        }
+    ]
+}

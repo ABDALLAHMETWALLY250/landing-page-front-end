@@ -1,0 +1,31 @@
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    background-color: var(--WhiteColor);
+    overflow-x: hidden;
+
+    &:lang(ar) {
+        direction: rtl;
+    }
+
+    &:lang(en) {
+        direction: ltr;
+    }
+
+    &::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+
+        background-image: url("/images/bg-body.png");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+}

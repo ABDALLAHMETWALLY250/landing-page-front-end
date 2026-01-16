@@ -1,0 +1,46 @@
+{
+    "title": "Premium Coffee Beans",
+    "description": "High-quality roasted coffee beans with rich flavor and smooth taste. Sourced from the finest coffee plantations in Colombia, our beans are carefully selected and roasted to perfection.",
+    "price": 30,
+    "discount": 20,
+    "rating": 4.5,
+    "images": [
+        "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?w=800&q=80",
+        "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80",
+        "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=800&q=80"
+    ],
+    "features": [
+        "100% Arabica Beans",
+        "Medium Roast",
+        "Origin: Colombia",
+        "250g Package",
+        "Fair Trade Certified",
+        "Eco-Friendly Packaging"
+    ],
+    "reviews": [
+        {
+            "name": "Ahmed Hassan",
+            "comment": "Amazing taste and fast delivery! The aroma is incredible and the flavor profile is exactly what I was looking for. Will definitely order again.",
+            "rating": 5,
+            "date": "January 15, 2024"
+        },
+        {
+            "name": "Sara Mohamed",
+            "comment": "Good quality but a bit expensive. However, the taste justifies the price. The packaging was excellent and kept the beans fresh.",
+            "rating": 4,
+            "date": "January 10, 2024"
+        },
+        {
+            "name": "Mohamed Ali",
+            "comment": "Best coffee I've ever had! The smooth finish and rich flavor notes make every morning special. Highly recommended!",
+            "rating": 5,
+            "date": "January 8, 2024"
+        },
+        {
+            "name": "Layla Ibrahim",
+            "comment": "Great product, very fresh beans. The customer service was also excellent. Love supporting sustainable coffee producers.",
+            "rating": 5,
+            "date": "January 5, 2024"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+<template>
+  <NuxtRouteAnnouncer />
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
+</template>
+
+
+<style>
+:root {
+  --PrimaryColor: #004876;
+  --SecondaryColor: #6f4336;
+  --SectionHeaderTitleColor: #3b2f2f;
+  --WhiteColor: #fff;
+}
+</style>

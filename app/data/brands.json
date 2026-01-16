@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "title": "Café 1",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 2,
+        "title": "Café 2",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 3,
+        "title": "Café 3",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 4,
+        "title": "Café 4",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 5,
+        "title": "Café 5",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 6,
+        "title": "Café 6",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 7,
+        "title": "Café 7",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 8,
+        "title": "Café 8",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 9,
+        "title": "Café 9",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 10,
+        "title": "Café 10",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 11,
+        "title": "Café 11",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 12,
+        "title": "Café 12",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 13,
+        "title": "Café 13",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 14,
+        "title": "Café 14",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 15,
+        "title": "Café 15",
+        "image": "/images/Group.png"
+    },
+    {
+        "id": 16,
+        "title": "Café 16",
+        "image": "/images/Group.png"
+    }
+]
