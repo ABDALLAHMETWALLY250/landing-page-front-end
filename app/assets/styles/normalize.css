@@ -2,10 +2,14 @@ html {
     scroll-behavior: smooth;
 }
 
+div#__nuxt,
+body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: "Quicksand", sans-serif;
     background-color: var(--WhiteColor);
-    overflow-x: hidden;
 
     &:lang(ar) {
         direction: rtl;

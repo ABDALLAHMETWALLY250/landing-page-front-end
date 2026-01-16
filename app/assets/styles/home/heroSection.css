@@ -11,8 +11,8 @@
         &:before {
             content: "";
             position: absolute;
-            top: -7rem;
-            right: -3rem;
+            top: -6rem;
+            right: -4rem;
             width: 70%;
             height: 100%;
             background-image: url(/images/hero.png);

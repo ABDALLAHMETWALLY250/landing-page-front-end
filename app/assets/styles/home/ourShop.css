@@ -142,7 +142,7 @@
     }
 
     [dir="rtl"] .content-section {
-        right: 72%;
+        right: 60%;
         transform: translate(50%, -50%);
     }
 }
