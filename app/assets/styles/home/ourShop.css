@@ -76,7 +76,7 @@
     }
 
     [dir="rtl"] .first-image {
-        /* width: 54%; */
+        width: 74%;
         transform: rotateY(180deg);
         margin-right: 0;
         margin-left: auto;
