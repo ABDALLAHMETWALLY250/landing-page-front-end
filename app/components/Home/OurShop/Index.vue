@@ -9,12 +9,7 @@ const cardsData = cards;
   <div class="our-shop">
     <div class="shop-grid">
       <!-- Left Image Section -->
-      <div
-        class="left-image"
-        data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine"
-      >
+      <div class="left-image" data-aos="zoom-in">
         <div class="images">
           <NuxtImg
             src="/images/ourShopbg.webp"
@@ -49,10 +44,7 @@ const cardsData = cards;
             :title="item.title"
             :description="item.description"
             :image="item.image"
-            data-aos="fade-left"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500"
+            data-aos="zoom-in"
           />
         </div>
       </div>
