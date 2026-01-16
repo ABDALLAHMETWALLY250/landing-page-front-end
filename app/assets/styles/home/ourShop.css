@@ -71,12 +71,12 @@
 
 @media (min-width: 1024px) {
     [dir="ltr"] .first-image {
-        width: 54%;
+        width: 35rem;
         margin-left: 0;
     }
 
     [dir="rtl"] .first-image {
-        width: 74%;
+        width: 35rem;
         transform: rotateY(180deg);
         margin-right: 0;
         margin-left: auto;
