@@ -57,13 +57,13 @@
 }
 
 [dir="ltr"] .first-image {
-    margin-left: auto;
+    /* margin-left: auto; */
     margin-right: 0;
 }
 
 [dir="rtl"] .first-image {
     margin-left: 0;
-    margin-right: auto;
+    /* margin-right: auto; */
 }
 
 @media (min-width: 1024px) {
