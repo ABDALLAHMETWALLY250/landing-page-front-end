@@ -5,7 +5,7 @@ const data = heroSection;
 </script>
 
 <template>
-  <div class="hero-section">
+  <div class="hero-section ">
     <div class="swiper-container">
       <HomeHeroSectionImagesSwiper />
     </div>

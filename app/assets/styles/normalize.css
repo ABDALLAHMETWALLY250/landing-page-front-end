@@ -33,3 +33,17 @@ body {
         display: none;
     }
 }
+
+.footer-image {
+    &:lang(en) {
+        right: 0;
+    }
+
+    &:lang(ar) {
+        left: -12rem;
+        @media (max-width: 800px) {
+            left: 0;
+            width: 50%;
+        }
+    }
+}

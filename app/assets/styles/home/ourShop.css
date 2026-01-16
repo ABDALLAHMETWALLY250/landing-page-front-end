@@ -87,7 +87,7 @@
     position: absolute;
     [dir="rtl"] & {
         left: 76%;
-        top: 47%;
+        top: 50%;
     }
 
     [dir="ltr"] & {

@@ -85,6 +85,8 @@ const handleNext = () => {
           ref="swiperBasicRef"
           class="swiper-basic"
           :loop="true"
+          centeredSlides: true,
+
           :speed="800"
           :breakpoints="{
             768: {
@@ -112,7 +114,7 @@ const handleNext = () => {
                 ? `background: linear-gradient(90deg, #004876 0%, #1E71A6 100%);`
                 : `background: linear-gradient(90deg, #6F4336 0%, #3B2F2F 100%);`
             } `"
-            style="border-radius: 50%; width: fit-content"
+            style="border-radius: 50%;"
           >
             <NuxtImg :src="slide.image" alt="Coffee Beans" />
           </swiper-slide>
