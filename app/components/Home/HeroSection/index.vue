@@ -25,7 +25,7 @@ const data = heroSection;
         $t("Get your ordered (better) coffee delivered to you if you want.")
       }}</span>
       <div class="actions">
-        <button class="btn">
+        <button class="btn" aria-label="Shop Now">
           <span>{{ data.sale }}</span>
           <IconsArrowDown />
         </button>

@@ -71,6 +71,7 @@ const setActiveImage = (image) => {
           'ring-1 ring-gray-200 hover:ring-gray-300': activeImage !== img,
         }"
         :style="activeImage === img ? 'ring-color: var(--PrimaryColor)' : ''"
+        aria-label="Select image"
       >
         <img
           :src="img"

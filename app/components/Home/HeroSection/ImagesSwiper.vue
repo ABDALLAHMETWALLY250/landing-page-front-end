@@ -119,7 +119,7 @@ const handleNext = () => {
         </swiper-container>
 
         <div class="swiper-basic-buttons">
-          <button @click="handlePrev" class="swiper-button-prev">
+          <button @click="handlePrev" class="swiper-button-prev" aria-label="Previous slide">
             <IconsArrowPrev
               :style="
                 locale === 'ar'
@@ -128,7 +128,7 @@ const handleNext = () => {
               "
             />
           </button>
-          <button @click="handleNext" class="swiper-button-next">
+          <button @click="handleNext" class="swiper-button-next" aria-label="Next slide">
             <IconsArrowNext
               :style="
                 locale === 'ar'

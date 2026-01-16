@@ -5,7 +5,13 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  modules: ["@nuxt/image", "nuxt-swiper", "nuxt-marquee", "@nuxtjs/i18n", "nuxt-aos"],
+  modules: [
+    "@nuxt/image",
+    "nuxt-swiper",
+    "nuxt-marquee",
+    "@nuxtjs/i18n",
+    "nuxt-aos",
+  ],
   vite: {
     plugins: [tailwindcss()],
   },
@@ -33,6 +39,19 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "Neop Task",
+      meta: [
+        {
+          charset: "utf-8",
+        },
+        {
+          name: "viewport",
+          content: "width=device-width, initial-scale=1",
+        },
+        {
+          name: "description",
+          content: "Neop Task",
+        },
+      ],
       htmlAttrs: {
         lang: "en",
         dir: "ltr",

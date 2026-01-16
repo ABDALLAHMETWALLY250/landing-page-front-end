@@ -28,6 +28,7 @@ const selectTab = (tab: string) => {
       :key="tab"
       @click="selectTab(tab)"
       class="relative pb-2 text-[20px] transition-colors duration-300"
+      aria-label="Select tab"
       :class="
         activeTab === tab
           ? 'text-[#004876] font-medium'

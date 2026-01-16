@@ -149,6 +149,7 @@ const handleAddToCart = () => {
           @click="decreaseQuantity"
           class="px-4 py-2 hover:opacity-70 transition-colors text-white"
           style="background-color: var(--PrimaryColor)"
+          aria-label="Decrease quantity"
         >
           <svg
             class="w-5 h-5"
@@ -174,6 +175,7 @@ const handleAddToCart = () => {
           @click="increaseQuantity"
           class="px-4 py-2 hover:opacity-70 transition-colors text-white"
           style="background-color: var(--PrimaryColor)"
+          aria-label="Increase quantity"
         >
           <svg
             class="w-5 h-5"
@@ -197,6 +199,7 @@ const handleAddToCart = () => {
         @click="handleAddToCart"
         class="flex-1 text-white py-4 px-8 rounded-xl font-semibold hover:opacity-90 transition-all duration-300 shadow-lg"
         style="background-color: var(--PrimaryColor)"
+        aria-label="Add to cart"
       >
         {{ $t("Add to Cart") }} • ${{ (discountedPrice * quantity).toFixed(2) }}
       </button>
@@ -206,6 +209,7 @@ const handleAddToCart = () => {
           border-color: var(--SecondaryColor);
           color: var(--SecondaryColor);
         "
+        aria-label="Add to wishlist"
       >
         <svg
           class="w-6 h-6 mx-auto"
