@@ -32,6 +32,7 @@ const addToCart = () => {
           :discount="product.discount"
           :productTitle="product.title"
           @update:activeImage="activeImage = $event"
+          data-aos="fade-up-right"
         />
 
         <ProductsDetailsInfo
@@ -40,12 +41,16 @@ const addToCart = () => {
           :discountedPrice="discountedPrice"
           @update:quantity="quantity = $event"
           @addToCart="addToCart"
+          data-aos="fade-up-left"
         />
       </div>
 
       <ProductsDetailsReviews
         :reviews="product.reviews"
         :rating="product.rating"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
       />
     </div>
   </div>

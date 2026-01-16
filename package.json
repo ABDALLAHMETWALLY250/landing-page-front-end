@@ -11,11 +11,12 @@
   },
   "dependencies": {
     "@nuxt/image": "^2.0.0",
+    "@nuxtjs/i18n": "^10.0.4",
     "@tailwindcss/vite": "^4.1.18",
     "nuxt": "^4.2.2",
+    "nuxt-aos": "^1.2.5",
     "nuxt-marquee": "^1.0.4",
     "nuxt-swiper": "^2.0.1",
-    "@nuxtjs/i18n": "^10.0.4",
     "tailwindcss": "^4.1.18",
     "vue": "^3.5.26",
     "vue-router": "^4.6.4"

@@ -18,10 +18,14 @@ const filteredProducts = computed(() => {
   <template>
   <div class="products !mt-20">
     <div class="container !mx-auto">
-      
-      <HomeOurProductsHeader />
+      <HomeOurProductsHeader data-aos="zoom-in" />
 
-      <HomeOurProductsTabs @tabChange="changeTab" />
+      <HomeOurProductsTabs
+        @tabChange="changeTab"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+      />
 
       <Transition
         enter-active-class="transition-all duration-300 ease-out"
@@ -39,6 +43,9 @@ const filteredProducts = computed(() => {
             v-for="product in filteredProducts"
             :key="product.id"
             :product="product"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
           />
         </div>
       </Transition>
