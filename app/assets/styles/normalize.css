@@ -46,6 +46,6 @@ body {
     }
 
     &:lang(ar) {
-        left: 3rem;
+        left: -4rem;
     }
 }
