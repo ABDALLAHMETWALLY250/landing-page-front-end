@@ -41,7 +41,7 @@
             grid-row-start: 1;
             display: flex;
             justify-content: center;
-            align-items: end;
+            align-items: center;
 
             .swiper-wrapper {
                 width: 100%;
