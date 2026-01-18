@@ -83,7 +83,7 @@
                                 opacity: 1;
                                 transform: scale(0.9);
                                 width: 552px !important;
-                                height: 552px !important;
+                                height: 502px !important;
 
                                 @media screen and (max-width: 790px) {
                                     width: 100% !important;
@@ -95,7 +95,7 @@
                                     width: 100% !important;
                                     height: 580px !important;
                                 }
-
+                               
                                 @media screen and (max-width: 500px) {
                                     width: 100% !important;
                                     height: 400px !important;
