@@ -2,14 +2,16 @@ html {
     scroll-behavior: smooth;
 }
 
-div#pp,
+#app,
 body {
+    height: 100%;
     overflow-x: hidden;
 }
 
 body {
     font-family: "Quicksand", sans-serif;
     background-color: var(--WhiteColor);
+    overflow-x: hidden;
 
     &::-webkit-scrollbar {
         width: 8px;
