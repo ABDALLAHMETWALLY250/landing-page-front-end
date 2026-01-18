@@ -39,7 +39,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "Neop Task",
+      title: "landing page",
       meta: [
         {
           charset: "utf-8",
