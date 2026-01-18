@@ -2,7 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 
-div#__nuxt,
+div#pp,
 body {
     overflow-x: hidden;
 }
