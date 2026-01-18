@@ -41,7 +41,7 @@ const filteredProducts = computed(() => {
       >
         <div
           :key="activeTab"
-          class="!mt-10 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10"
+          class="!mt-10 grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 gap-10"
         >
           <CardsOurProductCard
             v-for="product in filteredProducts"
