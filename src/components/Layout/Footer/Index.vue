@@ -1,0 +1,40 @@
+<script setup lang="ts">
+import LayoutFooterSocialLinks from '@/components/Layout/Footer/SocialLinks.vue'
+import LayoutFooterMenuLinks from '@/components/Layout/Footer/MenuLinks.vue'
+import LayoutFooterCafeLocation from '@/components/Layout/Footer/CafeLocation.vue'
+import LayoutFooterContact from '@/components/Layout/Footer/Contact.vue'
+</script>
+
+<template>
+  <div class="!mt-20 w-full bg-gradient-to-r from-[#004876] to-[#1E71A6] !py-8 !px-5 min-h-[62vh]">
+    <div class="container !mx-auto relative">
+      <img
+        src="/images/Group 1000010753.png"
+        alt="footer image"
+        loading="lazy"
+        class="absolute sm-none w-[20rem] footer-image xl:-top-[20rem] lg:-top-[15rem] md:-top-[15rem]"
+      />
+
+      <!-- Content -->
+      <div class="container !mx-auto !mt-20 max-w-4xl">
+        <div
+          class="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 grid-cols-1 gap-10"
+        >
+          <LayoutFooterMenuLinks />
+          <LayoutFooterCafeLocation />
+          <LayoutFooterContact />
+        </div>
+
+        <div class="w-full !mt-20 bg-[#FFFFFF95] h-[1px]"></div>
+
+        <div class="flex items-center justify-between !mt-20">
+          <p class="font-medium text-[12px] text-[#FFFFFF95]">
+            {{ $t('Privacy policy') }}
+          </p>
+          <LayoutFooterSocialLinks />
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+  

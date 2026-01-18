@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "title": "Quality",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "image": "/images/Group 1000010783.png"
+    },
+    {
+        "id": 2,
+        "title": "Fast Delivery",
+        "description": "Get your coffee delivered quickly and fresh to your door.",
+        "image": "/images/Group 1000010783.png"
+    },
+    {
+        "id": 3,
+        "title": "Best Beans",
+        "description": "We select the best coffee beans from trusted farms.",
+        "image": "/images/Group 1000010783.png"
+    },
+    {
+        "id": 4,
+        "title": "Fresh Roast",
+        "description": "Roasted daily to keep the perfect taste.",
+        "image": "/images/Group 1000010783.png"
+    }
+]
